@@ -6,19 +6,19 @@ Program zatím **nic neumí**. Každý z vás dopíše jednu funkci a pak je spo
 
 Čtveřice = dvě dvojice. Hned se domluvte, kdo je kdo.
 
-| Kdo | Soubor | Funkce | Co má dělat |
-|-----|--------|--------|-------------|
-| **A1** | `znamky.py` | `prumer` | Spočítá **průměr známek** ze seznamu. `[1, 2, 3]` → `2.0` |
-| **A2** | `znamky.py` | `prospel` | Zjistí, jestli žák **prospěl** (nemá žádnou pětku). `[1, 5, 2]` → `False` |
-| **B1** | `test.py` | `body_na_znamku` | Přepočítá **body z testu na známku** 1–5. `72` bodů → `3` |
-| **B2** | `test.py` | `slovne` | Změní číslo známky na **slovo**. `3` → `"dobře"` |
+| Kdo    | Soubor      | Funkce           | Co má dělat                                                               |
+| ------ | ----------- | ---------------- | ------------------------------------------------------------------------- |
+| **A1** | `znamky.py` | `prumer`         | Spočítá **průměr známek** ze seznamu. `[1, 2, 3]` → `2.0`                 |
+| **A2** | `znamky.py` | `prospel`        | Zjistí, jestli žák **prospěl** (nemá žádnou pětku). `[1, 5, 2]` → `False` |
+| **B1** | `test.py`   | `body_na_znamku` | Přepočítá **body z testu na známku** 1–5. `72` bodů → `3`                 |
+| **B2** | `test.py`   | `slovne`         | Změní číslo známky na **slovo**. `3` → `"dobře"`                          |
 
-Dvojice A je na větvi `polovina-a`, dvojice B na větvi `polovina-b`. 
+Dvojice A je na větvi `polovina-a`, dvojice B na větvi `polovina-b`.
 Sahejte jen do svého souboru. `main.py` a `kontrola.py` neupravuje nikdo.
 
 ## Co jsou ty `???`
 
-Ve své funkci najdete řádek `return "???"`. Je to jen **výplň**, aby šel program spustit. 
+Ve své funkci najdete řádek `return "???"`. Je to jen **výplň**, aby šel program spustit.
 **Smažte ho a napište vlastní řešení.** Zadání a nápověda jsou v textu nad ním.
 
 Spusťte `main.py` (tlačítko ▶ ve VS Code). Každá `???` čeká na jednoho z vás:
@@ -34,13 +34,7 @@ Slovně: ???           <- B2
 
 ---
 
-## 1. Stáhnout projekt
-
-1. **Jeden z čtveřice:** na GitHubu *Use this template → Create a new repository*. Pak *Settings → Collaborators* a pozve ostatní tři. Pak vytvoří větve `polovina-a` a `polovina-b` (přepínač větví → napsat název → Create branch).
-2. **Ostatní:** přijmou pozvánku z e-mailu.
-3. **Všichni:** GitHub Desktop → *File → Clone repository*. Nahoře *Current branch* → vyberte svou větev. Pak *Repository → Open in Visual Studio Code*.
-
-## 2. Napsat svůj kousek
+## Napsání své části
 
 1. Ve svém souboru přepište na začátku `AUTORI = "..."` **svým jménem**.
 2. Nahraďte `return "???"` svým řešením. Zkontrolujte přes `kontrola.py`.
