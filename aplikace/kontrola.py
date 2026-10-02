@@ -2,11 +2,13 @@
 from znamky import prumer, prospel
 from test import body_na_znamku, slovne
 
+
 def over(nazev, vysledek, spravne):
     if vysledek == spravne:
         print("OK     ", nazev)
     else:
         print("CHYBA  ", nazev, "-> vyšlo", vysledek, ", mělo vyjít", spravne)
+
 
 over("A1 prumer", prumer([1, 2, 3]), 2.0)
 over("A2 prospel bez pětky", prospel([1, 2, 4]), True)

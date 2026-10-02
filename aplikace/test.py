@@ -1,6 +1,6 @@
 # POLOVINA B – hodnocení testu  (dvojice B, větev polovina-b)
 
-AUTORI = "sem napište svoje jméno"   # <-- OBA přepíšete tento řádek
+AUTORI = "sem napište svoje jméno"  # <-- OBA přepíšete tento řádek
 
 
 # ---------------- ÚKOL B1 ----------------

@@ -3,6 +3,7 @@
 Spuštění:  python main.py
 Dokud funkce nejsou hotové, vypisují ???
 """
+
 from znamky import prumer, prospel
 from test import body_na_znamku, slovne
 

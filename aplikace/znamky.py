@@ -1,6 +1,6 @@
 # POLOVINA A – práce se seznamem známek  (dvojice A, větev polovina-a)
 
-AUTORI = "sem napište svoje jméno"   # <-- OBA přepíšete tento řádek
+AUTORI = "sem napište svoje jméno"  # <-- OBA přepíšete tento řádek
 
 
 # ---------------- ÚKOL A1 ----------------
